@@ -3,6 +3,7 @@
 namespace Ady\Bundle\MaintenanceBundle\Drivers;
 
 use Symfony\Contracts\Translation\TranslatorInterface;
+use function trigger_deprecation;
 
 /**
  * Factory for create driver.
